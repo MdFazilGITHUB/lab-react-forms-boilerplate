@@ -63,7 +63,7 @@ const Forms = () => {
       error.phone = "Please enter your Phone Number";
     }
     if (data.phone.trim().length != 10) {
-      error.firstName = "Please enter 10-digit Phone Number";
+      error.phone = "Please enter 10-digit Phone Number";
     }
 
     return error;
